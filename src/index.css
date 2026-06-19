@@ -89,7 +89,7 @@
   --color-ink: #4c4f69;            /* Text */
   --color-ink-soft: #6c6f85;       /* Subtext0 */
   --color-line: #bcc0cc;           /* Surface1 */
-  --color-accent: #fe640b;         /* Peach */
+  --color-accent: #e37738;         /* Peach */
   --color-accent-soft: #fce5d4;
   --color-accent-ink: #9a3b00;
   --color-good: #40a02b;           /* Green */
@@ -120,7 +120,7 @@
   --color-warn: #f9e2af;           /* Yellow */
   --color-warn-soft: #302a14;
   --color-danger: #f38ba8;         /* Red */
-  --color-danger-soft: #2d1520;
+  --color-danger-soft: #b45782;
   --color-plate: #11111b;          /* Crust — deepest dark for plate contrast */
   --color-plate-digit: #cdd6f4;    /* Text */
 }
