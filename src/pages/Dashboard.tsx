@@ -70,7 +70,7 @@ export function Dashboard() {
         <>
           <div className="grid grid-cols-2 gap-3">
             <OdometerPlate
-              label="Odometer"
+              label="Total Mileage"
               value={bike.current_odometer.toLocaleString()}
               unit={bike.odometer_unit}
             />
