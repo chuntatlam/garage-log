@@ -79,6 +79,52 @@
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 }
 
+/*
+  Catppuccin Latte — light theme
+  https://github.com/catppuccin/catppuccin
+*/
+[data-theme="light"] {
+  --color-paper: #eff1f5;          /* Base */
+  --color-paper-raised: #e6e9ef;   /* Mantle */
+  --color-ink: #4c4f69;            /* Text */
+  --color-ink-soft: #6c6f85;       /* Subtext0 */
+  --color-line: #bcc0cc;           /* Surface1 */
+  --color-accent: #fe640b;         /* Peach */
+  --color-accent-soft: #fce5d4;
+  --color-accent-ink: #9a3b00;
+  --color-good: #40a02b;           /* Green */
+  --color-good-soft: #d5efcc;
+  --color-warn: #df8e1d;           /* Yellow */
+  --color-warn-soft: #faeac8;
+  --color-danger: #d20f39;         /* Red */
+  --color-danger-soft: #fad7df;
+  --color-plate: #4c4f69;          /* Text — dark plate preserves instrument look */
+  --color-plate-digit: #eff1f5;    /* Base — light digits on dark plate */
+}
+
+/*
+  Catppuccin Mocha — dark theme
+  https://github.com/catppuccin/catppuccin
+*/
+[data-theme="dark"] {
+  --color-paper: #1e1e2e;          /* Base */
+  --color-paper-raised: #181825;   /* Mantle */
+  --color-ink: #cdd6f4;            /* Text */
+  --color-ink-soft: #a6adc8;       /* Subtext0 */
+  --color-line: #45475a;           /* Surface1 */
+  --color-accent: #fab387;         /* Peach */
+  --color-accent-soft: #3d2a1e;
+  --color-accent-ink: #f5e0dc;     /* Rosewater */
+  --color-good: #a6e3a1;           /* Green */
+  --color-good-soft: #1a2f1a;
+  --color-warn: #f9e2af;           /* Yellow */
+  --color-warn-soft: #302a14;
+  --color-danger: #f38ba8;         /* Red */
+  --color-danger-soft: #2d1520;
+  --color-plate: #11111b;          /* Crust — deepest dark for plate contrast */
+  --color-plate-digit: #cdd6f4;    /* Text */
+}
+
 @layer base {
   html {
     -webkit-tap-highlight-color: transparent;

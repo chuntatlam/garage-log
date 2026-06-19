@@ -11,7 +11,7 @@ No custom backend server — the client talks to Supabase directly, with Postgre
 ## 1. Set up Supabase
 
 1. Create a project at [supabase.com](https://supabase.com).
-Z6IQyB0P5rhPegcY
+
 2. Open the SQL Editor and run the contents of `supabase/migrations/0001_init.sql`. This creates the `bikes`, `fuel_entries`, `maintenance_entries`, and `maintenance_schedule` tables, enables Row Level Security on each, creates the private `maintenance-receipts` storage bucket, and adds all four tables to the Realtime publication.
 3. (Optional) To enable "Continue with Google": Authentication → Providers → Google, and add your OAuth client ID/secret. Without this step the Google button will show an error, but email/password sign-in works regardless.
 4. Go to Project Settings → API and copy the Project URL and anon public key.
